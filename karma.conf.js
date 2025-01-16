@@ -27,7 +27,7 @@ module.exports = function (config) {
         outputFile: 'karmatest.xml', 
         suite: 'unit',  // whichever prefix you wish to use
         useBrowserName: false, 
-      }
+    },
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
